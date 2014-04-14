@@ -4,16 +4,3 @@ $(document).ready(function() {
     $(this).addClass("selected");
   });
 });
-
-// (function(){
-//   var current = null;
-//   function select() {
-
-//   }
-//   function change() {
-
-//   }
-//   function verify() {
-
-//   }
-// })();

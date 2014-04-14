@@ -303,6 +303,38 @@ textarea {
     }
 }
 
+
+
+/*
+ * ICON Fonts
+ */
+@font-face {
+    font-family: 'icomoon';
+    src:url('fonts/icomoon.eot?p8mx8k');
+    src:url('fonts/icomoon.eot?#iefixp8mx8k') format('embedded-opentype'),
+        url('fonts/icomoon.woff?p8mx8k') format('woff'),
+        url('fonts/icomoon.ttf?p8mx8k') format('truetype'),
+        url('fonts/icomoon.svg?p8mx8k#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
 /*
  * Movie test clases 
  */
@@ -344,8 +376,27 @@ textarea {
     display: inline;
 }
 
-.movie.selected {
-    background-color: red;
+.movie.selected.icon-cancel-circle:before {
+    content: "\e600";
+}
+.movie.selected.icon-checkmark-circle:before {
+    content: "\e601";
+}
+
+.movie.selected.scoreOne {
+    background-image: 
+}
+
+.movie.selected.scoreTwo {
+    
+}
+
+.movie.selected.scoreThree {
+    
+}
+
+.movie.selected.scoreFour {
+    
 }
 
 .movie a img {
