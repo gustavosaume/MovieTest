@@ -315,6 +315,24 @@ textarea {
     text-align: center;
 }
 
+.description {
+    text-align: center;
+    margin: 0 auto 36px;
+}
+
+.description p {
+    margin-bottom: 5px;
+}
+
+.description ol {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.description ol li {
+    text-align: left;
+}
+
 .movies {
     margin: 0;
     padding: 0;
